@@ -5,9 +5,7 @@
 <link rel="icon" href="L&A.ico" type="image/x-icon">
 <meta charset="utf-8">
 <style>
-#navbanner ul {list-style-type: none;
-			   margin-top: 30px;
-			   margin-left: 0px;}
+#navbanner ul {list-style-type: none;}
 #navbanner li {display: inline;
 			   font-size: 1.50em;
 			   font-family: roboto,sans-serif;}
@@ -82,9 +80,19 @@ h2 {font-size: 3em;
 #maintable {margin-left: auto;
 			margin-right: auto;
 			border: 0;}
+#header {position: fixed;
+		 background-color: #FFFFFF;
+		 width: 100%;
+		 opacity: 100%;
+		 left: 0;
+		 top: 0;
+		 }
+#content {padding-top: 100px;}
 </style>
 </head>
 <body>
+
+  <div id="header">
   <div id="navbanner">
   <ul>
     <li>
@@ -105,7 +113,9 @@ h2 {font-size: 3em;
 	</div>
   <ul>
   </div>
-
+  </div>
+  
+  <div id="content">
   <table id="maintable"><tr>
   <td><div id="mainimage"><h2>&nbsp;&nbsp;&nbsp;THE BLACK SSD</h2></td><td><div id="mainimage2"><h2>&nbsp;&nbsp;&nbsp;THE BLUE HDD</h2></span></td>
   </tr></table></div>
@@ -123,6 +133,7 @@ h2 {font-size: 3em;
   
   <div id="copyright">
   Copyright &copy; 2014 L&A, Inc. All rights reserved.
+  </div>
   </div>
 </body>
 </html>
