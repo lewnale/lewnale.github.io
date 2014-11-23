@@ -36,20 +36,28 @@ body {background-color: #FFFFFF;
 		 top: 0;}
 #content {padding-top: 80px;
 		  margin: auto;
-		  width: 1100px;}
-#content {padding-top: 80px;
-		  font-size: 1.2em;
-		  margin: auto;
-		  width: 1100px;}
-#helptitle {font-size: 1.5em;
-			padding-left: 100px;}
-#subtitle {font-size: 0.7em;}
-#faq {font-size: 0.50em;
-	  width: 600px;}
-#designed {color: #FFFFFF;
-		   background-color: #465a65;
-		   text-align: center;
-		   font-size: 3.0em;}
+		  width: 1300px;}
+#mainbody {float: left;
+		   padding-top: 20px;
+		   padding-left: 30px;
+		   width: 1000px;}
+#sidebar {padding-top: 0px;
+		  float: left;
+		  font-size: 1.1em;}
+#sidebar ul {list-style-type: none;}
+#sidebar li {font-size: 1.0em;}
+#sidebar a {text-decoration: none;}
+#sidebar a:link {color: #0099FF;}
+#sidebar a:visited {color: #0099FF;}
+#sidebar a:hover {color: #0E9595;}
+#sidebar a:active {color: #000000;}
+#paragraph {font-size: 1.0em;}
+#title1 {font-size: 1.3em;
+		 text-align: center;}
+#facttable {border: 1px solid black;
+			width: 190px;}
+tr:nth-of-type(odd) {background-color:#eaeaea;}
+tr:nth-of-type(even) {background-color:#aeaeae;}
 </style>
 </head>
 <body>
@@ -78,30 +86,40 @@ body {background-color: #FFFFFF;
   </div>
   
   <div id="content">
-    <div id="helptitle">Support Centre<br><br>
-	<table><tr><td>
-	<div id="subtitle">Frequently Asked Questions</div>
-	<div id="faq"><table>
-	<tr><td rowspan="2" style="vertical-align: top;">1.</td><td>Where can I buy the products of L&A?</td></tr>
-	<tr><td>You can get all L&A products online from Amazon.com/L&A.</td></tr>
-	<tr><td rowspan="2" style="vertical-align: top;">2.</td><td>Am I qualified for the L&A Standard Warranty if I buy the product online?</td></tr>
-	<tr><td>Yes, all L&A products come with 3 years L&A Standard Warranty.</td></tr>
-	<tr><td rowspan="2" style="vertical-align: top;">3.</td><td>What does L&A sell?</td></tr>
-	<tr><td>L&A is a company that produces storage devices for computers. At the <br>moment, Solid State Drive and Hard Disk Drive are the main products of L&A. </td></tr>
-	</table></div></td><td style="vertical-align: top;">
-	<div id="subtitle">Contact us</div>
-	<div id="faq"><table>
-	<tr><td>L&A, Inc., Jalan Andrew,<br>North Quay,<br>45000 Bandar Sunway,<br>Selangor</td></tr>
-	<tr><td>03-1234567890</td></tr>
-	<tr><td>support@lewandale.com</td></tr>
-	</table></div>
-	</td></tr></table>
+    <div id="sidebar">
+	<ul>
+	  <li>
+	    <a href="abtus.html">Company overview</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	  </li>
+	  <li>
+	    <a href="vision.html">Vision</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	  </li>
+	  <li>
+	    <a href="ourteam.html">Our Team</a>
+	  </li>
+	</ul>
 	</div>
-  </div>  
-  <br><br><br><div id="designed"><br>Help Centre, here to answer your questions.<br><br></div>
-  <div id="content1">
-  <div style="text-align: center;">WHAT IS SSD? WHAT IS HDD?<br><br>
-  <iframe width="700" height="380" src="http://www.youtube.com/embed/YQEjGKYXjw8" frameborder="0" allowfullscreen></iframe></div>
+
+    <div id="mainbody"><div id="title1">L&A's mission is to deliver top notch performance for your computer.</div>
+	<div id="paragraph"><p><i>"For us, L&A is not just a company, it is our soul" Lewis and Alex</i></p>
+	<div id="facttable">
+	<table>
+	<tr>
+	<th>L&A Facts</th>
+	</tr>
+	<tr>
+	<td>Founded: 2010</td>
+	</tr>
+	<tr>
+	<td>Founders: Lewis and Alex</td>
+	</tr>
+	<tr>
+	<td>Headquarter: Sunway</td>
+	</tr>
+	</table>
+	</div>
+	</div>
+	</div>
   </div>
 </body>
 </html>
