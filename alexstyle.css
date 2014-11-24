@@ -1,0 +1,50 @@
+#navbanner ul	{list-style-type: none;}
+#navbanner li		{display: inline;
+				 font-size: 1.50em;
+				 font-family: 'Roboto',sans-serif;}
+#navbanner a 	{text-decoration: none;}
+#navbanner a:link 	{color: #000000;}
+#navbanner a:visited	{color: #000000;}
+#navbanner a:hover 	{color: #0E9595;}
+#navbanner a:active 	{color: #0E9595;}
+#copyright 	{font-family: 'Roboto', sans-serif;
+			 font-size: 0.80em;
+			 background-color: #EFEFEF}
+#navbanner2 	{float: right;
+			 margin-right: 50px;
+			 font-size: 0.95em;}
+#navbanner2 a:link 	{color: #0E9595;}
+#navbanner2 a:visited	{color: #0E9595;}
+#navbanner2 a:hover 	{color: #0E9595;}
+#navbanner2 a:active	{color: #0E9595;}
+:-webkit-input-placeholder	{font-size: 14px;
+							 color: #000000;
+							 text-transform: uppercase;
+							 text-transform: uppercase;
+							 text-align: center;}
+:-moz-placeholder	{/* older Firefox*/
+					 font-size:14px;
+					 color: #000000;
+					 text-transform: uppercase;
+					 text-align: center;}
+:-moz-placeholder 	{/* Firefox 19+ */ 
+					 font-size: 14px;
+					 color: #000000; 
+					 text-transform: uppercase;
+					 text-align: center;} 
+:-ms-input-placeholder	{font-size: 14px; 
+						 color: #000000;
+						 text-transform: uppercase;
+						 text-align: center;}
+#nav	{width:1000px; margin:auto}
+#section{width:1000px; margin: auto} 
+#footer 	{width:1000px; margin:auto; background-color:#F9F9F9; text-align:center }
+#header 	{position: fixed;
+		 background-color: #FFFFFF;
+		 width: 100%;
+		 left: 0;
+		 top: 0;
+		 border-bottom: 1px solid black}
+#content{padding-top: 100px;}
+
+
